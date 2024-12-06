@@ -1,7 +1,5 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const app = document.getElementById("app");
+import { AppComponent } from "./components/AppComponent";
 
-  if (app) {
-    app.innerHTML = "<h1>Vanilla Notion</h1>";
-  }
+document.addEventListener("DOMContentLoaded", () => {
+  new AppComponent();
 });
