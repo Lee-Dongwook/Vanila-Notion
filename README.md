@@ -1,1 +1,1 @@
-# Vanila-Notion
+# Vanilla-Notion
